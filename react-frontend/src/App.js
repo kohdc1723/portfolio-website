@@ -1,16 +1,14 @@
 import "./App.css";
 import { NavBar, Skills, Education, Experience } from "./components";
-import { Main, About } from "./containers";
+import { Main, About, Projects } from "./containers";
 
 function App() {
 	return (
-		<main className="bg-white px-10 md:px-20 lg:px-40">
+		<main className="bg-white px-10 md:px-20 lg:px-44">
 			<NavBar />
 			<Main />
 			<About />
-			{/* <Skills />
-			<Education />
-			<Experience /> */}
+			<Projects />
 		</main>
 	);
 }

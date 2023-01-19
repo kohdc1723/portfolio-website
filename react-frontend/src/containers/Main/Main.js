@@ -1,10 +1,9 @@
 import React from "react";
 import { AiFillTwitterCircle, AiFillLinkedin, AiFillGithub } from "react-icons/ai";
-import profile from "../../assets/profile.jpg";
 
 const Main = () => {
 	return (
-		<section>
+		<section className="py-3">
 			<div className="text-center p-10">
 				<h2 className="text-5xl text-teal-600 font-medium md:text-6xl">Dongchan Koh</h2>
 				<h3 className="text-lg py-2 md:text-xl">looking for Software Developer job</h3>
@@ -17,9 +16,9 @@ const Main = () => {
 				<AiFillGithub />
 			</div>
 
-			<div className="relative mx-auto rounded-full w-80 h-80 mt-10 overflow-hidden md:h-96 md:w-96">
+			{/* <div className="relative mx-auto rounded-full w-80 h-80 mt-10 overflow-hidden md:h-96 md:w-96">
 				<img src={profile} fill objectFit="cover" />
-			</div>
+			</div> */}
 		</section>
 	);
 }
