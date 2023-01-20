@@ -4,5 +4,10 @@ module.exports = {
 	theme: {
 		extend: {}
 	},
-	plugins: []
+	plugins: [],
+	variants: {
+		extend: {
+			display: ["hover", "group-hover"]
+		}
+	}
 }
