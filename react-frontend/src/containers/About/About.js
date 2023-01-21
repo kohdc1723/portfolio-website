@@ -10,7 +10,7 @@ const About = () => {
 
     return (
         <div>
-            <div className="relative mx-auto my-3 w-96 h-96 rounded-full overflow-hidden">
+            <div className="relative mx-auto my-3 w-80 h-80 rounded-full overflow-hidden md:w-96 md:h-96">
                 <img src={profile} alt="profile" className="object-cover" />
             </div>
 

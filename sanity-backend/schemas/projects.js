@@ -9,10 +9,20 @@ export default {
             type: "string",
         },
         {
+            name: "period",
+            title: "Period",
+            type: "string"
+        },
+        {
             name: "stack",
             title: "Stack",
             type: "array",
             of: [{type: "string"}]
+        },
+        {
+            name: "description",
+            title: "Description",
+            type: "string"
         },
         {
             name: "projectLink",
