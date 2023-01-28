@@ -31,7 +31,7 @@ const Projects = () => {
 								</div>
 								<div className="text-center py-1 text-sm text-slate-900">{project.description}</div>
 								<div className="flex py-1 justify-center gap-20 text-4xl text-slate-700">
-									<AiOutlineLink className="hover:cursor-pointer" onClick={(e) => {
+									<AiOutlineLink className="hover:cursor-pointer" hidden={project.projectLink === undefined ? "hidden" : ""} onClick={(e) => {
 										e.preventDefault();
 										window.open(project.projectLink, "_blank");
 									}}/>
