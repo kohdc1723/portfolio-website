@@ -26,7 +26,7 @@ const Experience = () => {
 				<div className="pl-3 text-left text-xs w-full">
 					<div className="flex items-center font-medium text-slate-900">
 						<h4 className="text-base">Air Operations Specialist</h4>
-						<h4 className="ml-10">United States Army Garrison Yongsan</h4>
+						<h4 className="ml-10">US 8th Army Korean Augmentation To the United States Army</h4>
 					</div>
 					<div className="flex justify-between text-slate-500 font-medium">
 						<p>Seoul, South Korea</p>
