@@ -5,8 +5,8 @@ import profile from "../../assets/profile.jpg"
 
 const About = () => {
     const [index, setIndex] = useState(0);
-    const activeStyle = "text-teal-700 font-bold mr-3 w-24 flex justify-center items-center border-b-4 border-teal-700";
-    const inactiveStyle = "text-teal-700 font-medium mr-3 w-24 flex justify-center items-center";
+    const activeStyle = "text-indigo-900 font-bold mr-3 w-24 flex justify-center items-center border-b-4 border-indigo-900";
+    const inactiveStyle = "text-indigo-900 font-medium mr-3 w-24 flex justify-center items-center";
 
     return (
         <div>
@@ -15,7 +15,7 @@ const About = () => {
             </div>
 
             <div>
-                <h3 className="py-3 text-3xl font-medium text-teal-700">About me</h3>
+                <h3 className="py-3 text-3xl font-medium text-indigo-900">About me</h3>
 
                 <Tabs className="pb-3 w-full" selectedIndex={index} onSelect={index => { setIndex(index); }}>
                     <TabList className="flex justify-left text-center">

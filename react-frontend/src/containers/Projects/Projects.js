@@ -15,10 +15,10 @@ const Projects = () => {
 
 	return (
 		<div>
-			<div className="py-3 text-3xl text-teal-700 font-medium">Projects</div>
+			<div className="py-3 text-3xl text-indigo-900 font-medium">Projects</div>
 				<div className="md:grid md:grid-cols-2 md:gap-5">
 					{projects.map((project, key) => (
-						<div key={key} className="group relative w-full h-fit mb-3 shadow-xl rounded-xl shadow-teal-700">
+						<div key={key} className="group relative w-full h-fit mb-3 shadow-xl rounded-xl shadow-slate-500">
 							<img className="w-full h-full p-1 object-contain rounded-xl" src={urlFor(project.thumbnail)} alt="project thumbnail" />
 
 							<div className="invisible absolute p-3 w-full h-full bottom-0 opacity-95 rounded-xl bg-slate-300 group-hover:visible">

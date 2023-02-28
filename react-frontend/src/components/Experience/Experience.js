@@ -1,23 +1,24 @@
 import React from "react";
 import eightharmylogo from "../../assets/eightharmy.svg";
-import sinjeonlogo from "../../assets/sinjeon.jpeg";
+import revere from "../../assets/revere.jpeg";
 
 const Experience = () => {
 	return (
 		<div>
 			<div className="flex w-full py-3">
-				<img className="w-16 h-16" src={sinjeonlogo} alt="sinjeon-logo" />
+				<img className="w-16 h-16" src={revere} alt="revere-logo" />
 				<div className="pl-3 text-left text-xs w-full">
 					<div className="flex items-center font-medium text-slate-900">
-						<h4 className="text-base">Part-time Server</h4>
-						<h4 className="ml-10">Sinjeon Tteokbokki</h4>
+						<h4 className="text-base">Revere Communications</h4>
+						<h4 className="ml-10">BCIT Industry Sponsored Student Project</h4>
 					</div>
 					<div className="flex justify-between text-slate-500 font-medium">
-						<p>Incheon, South Korea</p>
-						<p>May 2018 - Jul 2021</p>
+						<p>Canada</p>
+						<p>Jan 2023 - Present</p>
 					</div>
 					<div className="text-slate-900 py-3">
-						<p>Part-time server</p>
+						<p>- Developing a "Developer Journey Map", an interactive web application, to facilitate developers' discovery of new tools and their use in building things</p>
+						<p>- React.js / Node.js / Express.js / MongoDB</p>
 					</div>
 				</div>
 			</div>
@@ -25,18 +26,17 @@ const Experience = () => {
 				<img className="w-16 h-16" src={eightharmylogo} alt="eighth-army-logo" />
 				<div className="pl-3 text-left text-xs w-full">
 					<div className="flex items-center font-medium text-slate-900">
-						<h4 className="text-base">Air Operations Specialist</h4>
-						<h4 className="ml-10">US 8th Army Korean Augmentation To the United States Army</h4>
+						<h4 className="text-base">US 8th Army Korean Augmentation To the United States Army</h4>
+						<h4 className="ml-10">Air Operations Specialist</h4>
 					</div>
 					<div className="flex justify-between text-slate-500 font-medium">
-						<p>Seoul, South Korea</p>
+						<p>South Korea</p>
 						<p className="text-gray-500">Aug 2016 - Apr 2018</p>
 					</div>
 					<div className="text-slate-900 py-3">
-						<p>Mandatory Military Service</p>
-						<p>Coordination and determination of flight plans</p>
-						<p>Issuance of prior permission for landing on the heliport</p>
-						<p>Documentation of aircraft arrival and departure information</p>
+						<p>- Coordination and determination of flight plans</p>
+						<p>- Issuance of prior permission for landing on the heliport</p>
+						<p>- Documentation of aircraft arrival and departure information</p>
 					</div>
 				</div>
 			</div>
